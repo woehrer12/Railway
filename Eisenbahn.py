@@ -8,6 +8,16 @@ import functions
 import threading
 import time
 
+from Gleis_Class import Gleis
+Gleis1 = Gleis()
+Gleis2 = Gleis()
+Gleis3 = Gleis()
+Gleis4 = Gleis()
+Gleis5 = Gleis()
+Gleis6 = Gleis()
+Gleis7 = Gleis()
+Gleis8 = Gleis()
+
 Gleis1Signal = "unbekannt"
 Gleis2Signal = "unbekannt"
 Gleis3Signal = "unbekannt"
@@ -105,7 +115,7 @@ def action(deviceName, action):
 		t1 = threading.Thread(target=loop())
 		t1.start()
 
-   
+
 
    
 	templateData = {
