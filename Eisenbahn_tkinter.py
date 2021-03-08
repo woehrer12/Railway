@@ -33,6 +33,7 @@ Gleis10_Tkinter.setParameter("Gleis 10",20,160,400,540,10)
 
 
 
+
 # Ein Fenster erstellen
 window = tk.Tk()
 # Den Fenstertitle erstellen
