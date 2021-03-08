@@ -55,7 +55,6 @@ def index():
 def action(deviceName, action):
 
 	if deviceName == 'Gleis1':
-		global gleisebyte1
 		print("Gleis1")
 		if action == "HP0":
 			functions.gleis1_hp0()

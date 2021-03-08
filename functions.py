@@ -8,8 +8,8 @@ address2 = 0x21
 address3 = 0x22
 address4 = 0x23
 
-gleisebyte1 = 0x00
-gleisebyte2 = 0x00
+gleisebyte1 = 0xFF
+gleisebyte2 = 0xFF
 
 
 
