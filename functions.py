@@ -112,5 +112,39 @@ def gleis8_hp1():
 	bus.write_byte(address1,gleisebyte1)
 
 
+def checkidHP0(idi):
+	if idi == 1:
+		gleis1_hp0()
+	if idi == 2:
+		gleis2_hp0()
+	if idi == 3:
+		gleis3_hp0()
+	if idi == 4:
+		gleis4_hp0()
+	if idi == 5:
+		gleis5_hp0()
+	if idi == 6:
+		gleis6_hp0()
+	if idi == 7:
+		gleis7_hp0()
+	if idi == 8:
+		gleis8_hp0()
 
+def checkidHP1(idi):
+	if idi == 1:
+		gleis1_hp1()
+	if idi == 2:
+		gleis2_hp1()
+	if idi == 3:
+		gleis3_hp1()
+	if idi == 4:
+		gleis4_hp1()
+	if idi == 5:
+		gleis5_hp1()
+	if idi == 6:
+		gleis6_hp1()
+	if idi == 7:
+		gleis7_hp1()
+	if idi == 8:
+		gleis8_hp1()
 
